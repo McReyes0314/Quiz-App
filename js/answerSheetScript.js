@@ -141,10 +141,6 @@ const questions = [
     },
 ];
 
-const questionContainer = document.getElementById("questionContainer");
-const answerContainer = document.getElementById("answerContainer");
-let currentQuestionIndex = 0;
-
 function handleQuestion() {
     const quizLength = questions.length - 1;
 
